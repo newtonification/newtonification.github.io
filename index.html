@@ -104,80 +104,80 @@ https://templatemo.com/tm-503-newline
 							<!--Table head-->
 							  <thead>
 							    <tr>
-							      <th>#</th>
-							      <th>Team</th>
-								  <th>Tokens</th>
-								  <th>Star Points</th>
-								  <th>Win Points</th>
-							      <th>Remarks</th>
+							      <th class="priority-1">#</th>
+							      <th class="priority-1">Team</th>
+								  <th class="priority-3">Tokens</th>
+								  <th class="priority-1">Star Points</th>
+								  <th class="priority-1">Win Points</th>
+							      <th class="priority-4">Remarks</th>
 							    </tr>
 							  </thead>
 							  <!--Table head-->
 							  <!--Table body-->
 							  <tbody>
 							    <tr>
-							      <th scope="row">1</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">1</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">2</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">2</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">3</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">3</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">4</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">4</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">5</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">5</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">6</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">6</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">7</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">7</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">8</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">8</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							  </tbody>
 							  <!--Table body-->
@@ -615,7 +615,8 @@ https://templatemo.com/tm-503-newline
                 <h1>TEAMS</h1>
                 <span>United we stand !</span>
 				<br>
-				<span>- <i>A bunch of coconuts</i></span>
+				<span>- <i>A bunch of coconuts</i></span><br>
+				<span>(Tables can be viewed better in landscape mode.)</span>
               </div>
 				<style>
 				table {
@@ -633,6 +634,48 @@ https://templatemo.com/tm-503-newline
 				tr:nth-child(even) {
 				  background-color: #f0c63e;
 				}
+		        @media screen and (max-width: 1225px) and (min-width: 1045px) {
+				.priority-5{
+					display:none;
+				}
+				}
+	
+				@media screen and (max-width: 1045px) and (min-width: 835px) {
+				.priority-5{
+					display:none;
+				}
+				.priority-4{
+					display:none;
+				}
+				}
+	
+				@media screen and (max-width: 565px) and (min-width: 300px) {
+				.priority-5{
+					display:none;
+				}
+				.priority-4{
+					display:none;
+				}
+				.priority-3{
+					display:none;
+				}
+				}
+	
+				@media screen and (max-width: 300px) {
+				.priority-5{
+					display:none;
+				}
+				.priority-4{
+					display:none;
+				}
+				.priority-3{
+					display:none;
+				}
+				.priority-2{
+					display:none;
+				}
+	
+				}
 				</style>
               <div class="cd-full-width first-slide">
                 <div class="container">
@@ -645,63 +688,63 @@ https://templatemo.com/tm-503-newline
 							<!--Table head-->
 							  <thead>
 							    <tr>
-							      <th>#</th>
-							      <th>Name</th>
-							      <th>Trophies</th>
-							      <th>Highest trophies</th>
-								  <th>Favorite Brawler</th>
-								  <th>Favorite Game Mode</th>
-								  <th>Star Points</th>
-								  <th>Game Tag</th>
-							      <th>Remarks</th>
+							      <th class="priority-1">#</th>
+							      <th class="priority-1">Name</th>
+							      <th class="priority-2">Trophies</th>
+							      <th class="priority-4">Highest trophies</th>
+								  <th class="priority-5">Favorite Brawler</th>
+								  <th class="priority-5">Favorite Game Mode</th>
+								  <th class="priority-1">Star Points</th>
+								  <th class="priority-3">Game Tag</th>
+							      <th class="priority-5">Remarks</th>
 							    </tr>
 							  </thead>
 							  <!--Table head-->
 							  <!--Table body-->
 							  <tbody>
 							    <tr>
-							      <th scope="row">1</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">1</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">2</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">2</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">3</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">3</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">4</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">4</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							  </tbody>
 							  <!--Table body-->
@@ -723,63 +766,63 @@ https://templatemo.com/tm-503-newline
 							<!--Table head-->
 							  <thead>
 							    <tr>
-							      <th>#</th>
-							      <th>Name</th>
-							      <th>Trophies</th>
-							      <th>Highest trophies</th>
-								  <th>Favorite Brawler</th>
-								  <th>Favorite Game Mode</th>
-								  <th>Star Points</th>
-								  <th>Game Tag</th>
-							      <th>Remarks</th>
+							      <th class="priority-1">#</th>
+							      <th class="priority-1">Name</th>
+							      <th class="priority-2">Trophies</th>
+							      <th class="priority-4">Highest trophies</th>
+								  <th class="priority-5">Favorite Brawler</th>
+								  <th class="priority-5">Favorite Game Mode</th>
+								  <th class="priority-1">Star Points</th>
+								  <th class="priority-3">Game Tag</th>
+							      <th class="priority-5">Remarks</th>
 							    </tr>
 							  </thead>
 							  <!--Table head-->
 							  <!--Table body-->
 							  <tbody>
 							    <tr>
-							      <th scope="row">1</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">1</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">2</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">2</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">3</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">3</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">4</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">4</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							  </tbody>
 							  <!--Table body-->
@@ -801,63 +844,63 @@ https://templatemo.com/tm-503-newline
 							<!--Table head-->
 							  <thead>
 							    <tr>
-							      <th>#</th>
-							      <th>Name</th>
-							      <th>Trophies</th>
-							      <th>Highest trophies</th>
-								  <th>Favorite Brawler</th>
-								  <th>Favorite Game Mode</th>
-								  <th>Star Points</th>
-								  <th>Game Tag</th>
-							      <th>Remarks</th>
+							      <th class="priority-1">#</th>
+							      <th class="priority-1">Name</th>
+							      <th class="priority-2">Trophies</th>
+							      <th class="priority-4">Highest trophies</th>
+								  <th class="priority-5">Favorite Brawler</th>
+								  <th class="priority-5">Favorite Game Mode</th>
+								  <th class="priority-1">Star Points</th>
+								  <th class="priority-3">Game Tag</th>
+							      <th class="priority-5">Remarks</th>
 							    </tr>
 							  </thead>
 							  <!--Table head-->
 							  <!--Table body-->
 							  <tbody>
 							    <tr>
-							      <th scope="row">1</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">1</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">2</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">2</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">3</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">3</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">4</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">4</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							  </tbody>
 							  <!--Table body-->
@@ -879,63 +922,63 @@ https://templatemo.com/tm-503-newline
 							<!--Table head-->
 							  <thead>
 							    <tr>
-							      <th>#</th>
-							      <th>Name</th>
-							      <th>Trophies</th>
-							      <th>Highest trophies</th>
-								  <th>Favorite Brawler</th>
-								  <th>Favorite Game Mode</th>
-								  <th>Star Points</th>
-								  <th>Game Tag</th>
-							      <th>Remarks</th>
+							      <th class="priority-1">#</th>
+							      <th class="priority-1">Name</th>
+							      <th class="priority-2">Trophies</th>
+							      <th class="priority-4">Highest trophies</th>
+								  <th class="priority-5">Favorite Brawler</th>
+								  <th class="priority-5">Favorite Game Mode</th>
+								  <th class="priority-1">Star Points</th>
+								  <th class="priority-3">Game Tag</th>
+							      <th class="priority-5">Remarks</th>
 							    </tr>
 							  </thead>
 							  <!--Table head-->
 							  <!--Table body-->
 							  <tbody>
 							    <tr>
-							      <th scope="row">1</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">1</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">2</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">2</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">3</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">3</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">4</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">4</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							  </tbody>
 							  <!--Table body-->
@@ -957,63 +1000,63 @@ https://templatemo.com/tm-503-newline
 							<!--Table head-->
 							  <thead>
 							    <tr>
-							      <th>#</th>
-							      <th>Name</th>
-							      <th>Trophies</th>
-							      <th>Highest trophies</th>
-								  <th>Favorite Brawler</th>
-								  <th>Favorite Game Mode</th>
-								  <th>Star Points</th>
-								  <th>Game Tag</th>
-							      <th>Remarks</th>
+							      <th class="priority-1">#</th>
+							      <th class="priority-1">Name</th>
+							      <th class="priority-2">Trophies</th>
+							      <th class="priority-4">Highest trophies</th>
+								  <th class="priority-5">Favorite Brawler</th>
+								  <th class="priority-5">Favorite Game Mode</th>
+								  <th class="priority-1">Star Points</th>
+								  <th class="priority-3">Game Tag</th>
+							      <th class="priority-5">Remarks</th>
 							    </tr>
 							  </thead>
 							  <!--Table head-->
 							  <!--Table body-->
 							  <tbody>
 							    <tr>
-							      <th scope="row">1</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">1</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">2</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">2</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">3</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">3</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">4</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">4</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							  </tbody>
 							  <!--Table body-->
@@ -1035,63 +1078,63 @@ https://templatemo.com/tm-503-newline
 							<!--Table head-->
 							  <thead>
 							    <tr>
-							      <th>#</th>
-							      <th>Name</th>
-							      <th>Trophies</th>
-							      <th>Highest trophies</th>
-								  <th>Favorite Brawler</th>
-								  <th>Favorite Game Mode</th>
-								  <th>Star Points</th>
-								  <th>Game Tag</th>
-							      <th>Remarks</th>
+							      <th class="priority-1">#</th>
+							      <th class="priority-1">Name</th>
+							      <th class="priority-2">Trophies</th>
+							      <th class="priority-4">Highest trophies</th>
+								  <th class="priority-5">Favorite Brawler</th>
+								  <th class="priority-5">Favorite Game Mode</th>
+								  <th class="priority-1">Star Points</th>
+								  <th class="priority-3">Game Tag</th>
+							      <th class="priority-5">Remarks</th>
 							    </tr>
 							  </thead>
 							  <!--Table head-->
 							  <!--Table body-->
 							  <tbody>
 							    <tr>
-							      <th scope="row">1</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">1</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">2</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">2</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">3</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">3</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">4</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">4</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							  </tbody>
 							  <!--Table body-->
@@ -1113,63 +1156,63 @@ https://templatemo.com/tm-503-newline
 							<!--Table head-->
 							  <thead>
 							    <tr>
-							      <th>#</th>
-							      <th>Name</th>
-							      <th>Trophies</th>
-							      <th>Highest trophies</th>
-								  <th>Favorite Brawler</th>
-								  <th>Favorite Game Mode</th>
-								  <th>Star Points</th>
-								  <th>Game Tag</th>
-							      <th>Remarks</th>
+							      <th class="priority-1">#</th>
+							      <th class="priority-1">Name</th>
+							      <th class="priority-2">Trophies</th>
+							      <th class="priority-4">Highest trophies</th>
+								  <th class="priority-5">Favorite Brawler</th>
+								  <th class="priority-5">Favorite Game Mode</th>
+								  <th class="priority-1">Star Points</th>
+								  <th class="priority-3">Game Tag</th>
+							      <th class="priority-5">Remarks</th>
 							    </tr>
 							  </thead>
 							  <!--Table head-->
 							  <!--Table body-->
 							  <tbody>
 							    <tr>
-							      <th scope="row">1</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">1</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">2</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">2</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">3</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">3</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">4</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">4</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							  </tbody>
 							  <!--Table body-->
@@ -1191,63 +1234,63 @@ https://templatemo.com/tm-503-newline
 							<!--Table head-->
 							  <thead>
 							    <tr>
-							      <th>#</th>
-							      <th>Name</th>
-							      <th>Trophies</th>
-							      <th>Highest trophies</th>
-								  <th>Favorite Brawler</th>
-								  <th>Favorite Game Mode</th>
-								  <th>Star Points</th>
-								  <th>Game Tag</th>
-							      <th>Remarks</th>
+							      <th class="priority-1">#</th>
+							      <th class="priority-1">Name</th>
+							      <th class="priority-2">Trophies</th>
+							      <th class="priority-4">Highest trophies</th>
+								  <th class="priority-5">Favorite Brawler</th>
+								  <th class="priority-5">Favorite Game Mode</th>
+								  <th class="priority-1">Star Points</th>
+								  <th class="priority-3">Game Tag</th>
+							      <th class="priority-5">Remarks</th>
 							    </tr>
 							  </thead>
 							  <!--Table head-->
 							  <!--Table body-->
 							  <tbody>
 							    <tr>
-							      <th scope="row">1</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">1</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">2</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">2</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">3</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">3</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">4</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
+							      <th class="priority-1" scope="row">4</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-4"></td>
+							      <td class="priority-5"></td>
+							      <td class="priority-5"></td>
+								  <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+								  <td class="priority-5"></td>
 							    </tr>
 							  </tbody>
 							  <!--Table body-->
@@ -1266,7 +1309,8 @@ https://templatemo.com/tm-503-newline
             <li>
               <div class="heading">
                 <h1>Matches</h1>
-                <span>Set the world afire !</span>
+                <span>Set the world afire !</span><br>
+				<span>(Tables can be viewed better in landscape mode.)</span>
               </div>
               <div class="cd-full-width first-slide">
                 <div class="container">
@@ -1422,7 +1466,8 @@ https://templatemo.com/tm-503-newline
             <li>
               <div class="heading">
                 <h1>Scores</h1>
-                <span>He shoots, he scores !</span>
+                <span>He shoots, he scores !</span> <br>
+				<span>(Tables can be viewed better in landscape mode.)</span>
               </div>
 			  <!-- Team captains-->
               <div class="cd-full-width first-slide">
@@ -1436,98 +1481,98 @@ https://templatemo.com/tm-503-newline
 							<!--Table head-->
 							  <thead>
 							    <tr>
-							      <th>#</th>
-							      <th>Name</th>
-							      <th>Trophies</th>
-							      <th>Highest trophies</th>
-								  <th>Auction Money</th>
-								  <th>Star Points</th>
-								  <th>Game Tag</th>
-							      <th>Remarks</th>
+							      <th class="priority-1">#</th>
+							      <th class="priority-1">Name</th>
+							      <th class="priority-2">Trophies</th>
+							      <th class="priority-3">Highest trophies</th>
+								  <th class="priority-1">Auction Money</th>
+								  <th class="priority-1">Star Points</th>
+								  <th class="priority-4">Game Tag</th>
+							      <th class="priority-5">Remarks</th>
 							    </tr>
 							  </thead>
 							  <!--Table head-->
 							  <!--Table body-->
 							  <tbody>
 							    <tr>
-							      <th scope="row">1</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">1</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-4"></td>
+							      <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">2</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">2</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-4"></td>
+							      <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">3</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">3</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-4"></td>
+							      <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">4</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">4</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-4"></td>
+							      <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">5</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">5</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-4"></td>
+							      <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">6</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">6</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-4"></td>
+							      <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">7</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">7</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-4"></td>
+							      <td class="priority-5"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">8</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">8</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-4"></td>
+							      <td class="priority-5"></td>
 							    </tr>
 							  </tbody>
 							  <!--Table body-->
@@ -1550,338 +1595,338 @@ https://templatemo.com/tm-503-newline
 							<!--Table head-->
 							  <thead>
 							    <tr>
-							      <th>#</th>
-							      <th>Name</th>
-							      <th>Trophies</th>
-							      <th>Highest trophies</th>
-								  <th>Tokens</th>
-								  <th>Star Points</th>
-								  <th>Game Tag</th>
-							      <th>Remarks</th>
+							      <th class="priority-1">#</th>
+							      <th class="priority-1">Name</th>
+							      <th class="priority-1">Trophies</th>
+							      <th class="priority-3">Highest trophies</th>
+								  <th class="priority-2">Tokens</th>
+								  <th class="priority-1">Star Points</th>
+								  <th class="priority-3">Game Tag</th>
+							      <th class="priority-4">Remarks</th>
 							    </tr>
 							  </thead>
 							  <!--Table head-->
 							  <!--Table body-->
 							  <tbody>
 							    <tr>
-							      <th scope="row">1</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">1</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">2</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">2</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">3</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">3</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">4</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">4</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">5</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">5</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">6</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">6</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">7</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">7</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">8</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">8</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">9</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">9</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">10</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">10</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">11</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">11</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">12</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">12</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">13</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">13</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">14</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">14</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">15</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">15</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">16</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">16</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">17</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">17</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">18</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">18</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">19</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">19</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">20</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">20</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">21</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">21</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">22</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">22</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">23</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">23</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">24</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">24</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">25</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">25</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">26</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">26</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">27</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">27</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">28</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">28</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">29</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">29</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">30</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">30</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">31</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">31</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							    <tr>
-							      <th scope="row">32</th>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-							      <td></td>
-								  <td></td>
-							      <td></td>
-							      <td></td>
+							      <th class="priority-1" scope="row">32</th>
+							      <td class="priority-1"></td>
+							      <td class="priority-1"></td>
+							      <td class="priority-3"></td>
+							      <td class="priority-2"></td>
+							      <td class="priority-1"></td>
+								  <td class="priority-3"></td>
+							      <td class="priority-4"></td>
 							    </tr>
 							  </tbody>
 							  <!--Table body-->
